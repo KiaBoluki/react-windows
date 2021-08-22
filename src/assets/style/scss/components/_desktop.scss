@@ -1,0 +1,14 @@
+.desktop {
+    background-image: url("../img/desktop-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height:calc( 100vh - 2rem);
+    position: relative;
+    top:0;
+    left: 0;
+    bottom: 2rem;
+    right:0;
+  
+  }

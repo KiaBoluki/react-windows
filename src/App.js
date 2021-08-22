@@ -1,16 +1,18 @@
-import React from 'react';
+import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-
-import './components/desktop';
+import './assets/style/App.css';
+import Taskbar from './components/taskbar';
 import Desktop from './components/desktop';
 
-function App(props) {
-  return (
-    <div>
-      <Desktop/>
-    </div>
-  );
+export class App extends Component {
+  render() {
+    return (
+      <div>
+        <Desktop/>
+        <Taskbar/>
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App

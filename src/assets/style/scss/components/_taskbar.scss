@@ -1,0 +1,11 @@
+@import "./startButton";
+
+.desktop{
+    .taskbar {
+        width: 100vw;
+        height: 2rem;
+        background-color: aliceblue;
+        position: absolute;
+        bottom: 0;
+      }
+}
